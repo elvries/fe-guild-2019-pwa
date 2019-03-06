@@ -21,7 +21,8 @@ self.addEventListener('fetch', event => {
 
 const CACHE_STATIC_NAME = 'static';
 const URLS_TO_PRECACHE = [
-    '/',
+    // '/',
+    '/fe-guild-2019-pwa/',
     'index.html',
     'src/js/app.js',
     'src/js/feed.js',
